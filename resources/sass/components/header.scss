@@ -1,11 +1,11 @@
-@import "../components/variables";
 
 .dt-page-header {
-  background: url("/dist/img/header-bg.png") no-repeat;
+  background: url("/img/header-bg.png") no-repeat;
 
   & > * {
     color: white;
     font-family: $font-family-regular;
+      background: #00000078;
   }
 
   p.dt-page__title {

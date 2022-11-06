@@ -13,3 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::view('/', 'personal-account')->name("personal-account");
+Route::view('/reviews', 'reviews')->name("reviews");
+Route::view('/transactions', 'transactions')->name("transactions");
