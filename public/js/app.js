@@ -5428,8 +5428,8 @@ __webpack_require__.r(__webpack_exports__);
     return {
       visible: false,
       mobileMenuActive: {
-        title: "Мои транзакции",
-        svg: '    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"\n' + '                         viewBox="0 0 44 44">\n' + '                        <path\n' + '                            d="M32.6 27.2q1.25 0 2.225-.975.975-.975.975-2.275 0-1.25-.975-2.2-.975-.95-2.225-.95t-2.225.95q-.975.95-.975 2.2 0 1.3.975 2.275.975.975 2.225.975ZM9.25 36.1v2.65-29.5V36.1Zm0 6.6q-1.55 0-2.75-1.175T5.3 38.75V9.25q0-1.6 1.2-2.8 1.2-1.2 2.75-1.2h29.5q1.65 0 2.825 1.2 1.175 1.2 1.175 2.8v6.45h-4V9.25H9.25v29.5h29.5v-6.4h4v6.4q0 1.6-1.175 2.775Q40.4 42.7 38.75 42.7Zm17.7-9.35q-1.65 0-2.7-1.025Q23.2 31.3 23.2 29.7V18.4q0-1.65 1.05-2.675t2.7-1.025H41.1q1.7 0 2.725 1.025Q44.85 16.75 44.85 18.4v11.3q0 1.6-1.025 2.625T41.1 33.35Zm14.9-3V17.7H26.2v12.65Z"/>\n' + '                    </svg>'
+        title: "Настройка профиля",
+        svg: '        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"\n' + '                         viewBox="0 0 44 44">\n' + '                        <path\n' + '                            d="m18.8 44.7-1.05-6.5q-.8-.3-1.725-.825-.925-.525-1.575-1.075l-6.1 2.85-5.3-9.4 5.6-4.05q-.1-.35-.125-.85-.025-.5-.025-.85t.025-.85q.025-.5.125-.85l-5.6-4.1 5.3-9.3 6.15 2.8q.65-.55 1.55-1.05t1.7-.75l1.05-6.65h10.4l1.05 6.6q.8.3 1.725.775.925.475 1.575 1.075l6.1-2.8 5.3 9.3-5.6 4q.05.4.1.9t.05.9q0 .4-.05.875t-.1.875l5.6 4-5.3 9.4-6.15-2.85q-.65.55-1.525 1.1-.875.55-1.725.8l-1.05 6.5Zm5.15-14.2q2.7 0 4.6-1.9 1.9-1.9 1.9-4.6 0-2.7-1.9-4.6-1.9-1.9-4.6-1.9-2.7 0-4.6 1.9-1.9 1.9-1.9 4.6 0 2.7 1.9 4.6 1.9 1.9 4.6 1.9Zm0-3q-1.5 0-2.5-1.025t-1-2.475q0-1.45 1-2.475 1-1.025 2.5-1.025 1.45 0 2.475 1.025Q27.45 22.55 27.45 24q0 1.45-1.025 2.475Q25.4 27.5 23.95 27.5ZM24 24Zm-1.95 16.75h3.9l.7-5.6q1.7-.4 3.225-1.25 1.525-.85 2.725-2.1l5.3 2.3 1.75-3.25-4.65-3.4q.2-.85.325-1.7T35.45 24q0-.9-.1-1.75t-.35-1.7l4.65-3.4-1.75-3.25-5.3 2.3q-1.15-1.35-2.65-2.275-1.5-.925-3.3-1.125l-.7-5.55h-3.9l-.7 5.55q-1.75.3-3.275 1.2-1.525.9-2.725 2.2l-5.25-2.3-1.75 3.25 4.6 3.35q-.2.9-.325 1.75T12.5 24q0 .9.125 1.775.125.875.325 1.725l-4.6 3.35 1.75 3.25 5.25-2.3q1.25 1.25 2.775 2.125T21.35 35.2Z"/>\n' + '                    </svg>'
       },
       mobileMenu: [{
         title: "Мои заказы",
@@ -6841,7 +6841,7 @@ var render = function render() {
       "xlink:href": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVQ4jZ3TzSqGURAH8J+PHVLCSpKVsEUpomzY2+ACLGx8rLgAKykfNyAL16CUUiywZC8rryhZWNjo1NDT8by8TJ1mzsz8p/+cmVNn+VGJtGAJYxE6wx5e89TGKuBzDBZ801jAKF6KyfUlBVYDfI2JOMnux1otDMZDL+KqYF9iMk8uY9AQ+r3ge89iPxa4CL2Lvji7WexLyqbQEdS7M/89hvBQdJa9Qao4jPVsjJs5WBUGf5KcQROmYhIDaAv/E25wihO85QxSvxuYQ/MvDNI2HkZL96lAT8y4PYJHOMYtKgHqDEYzmA2mzxhJBbawgoPY/2/7nkkr9jGfdNqD3kjYqQGcJP2F7bC70iPWxeVzbf88hdTn3X/AqHwA8VY7499UjPsAAAAASUVORK5CYII="
     }
   })])])])])])]), _vm._v(" "), _c("div", {
-    staticClass: "personal-account-input__row"
+    staticClass: "personal-account-input-inter__row personal-account-input__row personal-account-input-tel__row"
   }, [_c("div", {
     staticClass: "personal-account-input__container personal-account-input-tel__container"
   }, [_c("label", {
@@ -6876,7 +6876,7 @@ var render = function render() {
       "xlink:href": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABXklEQVQ4jaXUv0vWURTH8Vf6ZCCYoREtrSGKi0EgLkmTQlsUCEJDrpqDDmIGgUMN9R8EyiMkgQ4OQRAULQ1CqATl4CKKEPhjUFTQ5MKx5Is9PV/9TOfec77ve8+553su6P91DUO44q+WMIoDZaqAQfSdEr6It+WCKlAZ9lO0YzjWd8qFHINWwt7AJxRj3ZYXNJe5wSb20BT+skFfsI1O3MAHXMJXHOYB7eIdqvEdtwPSkTe1pNf4jRp8xF1snQU0j4mwV7GTByJTzAGsoxv3zwNaw+Owx3CrxHfVpUBJ03gege/RnPEXogTb0X+T6MHFSq2DWXhqyvro8i78xI/4A8ZjL9WwLnrtXnr5fzVcL56hFlNxcjEg6SYNuIqRiL9ZKFGHlOI3vMGD2EvTID3EcqwXTuZcSjNoxAs8ivQ+R/qzJ0dPmkf/Yf1RAj7BQ1zO+F7mAR2rCq1owXXs49UR9XpEY/iGbokAAAAASUVORK5CYII="
     }
   })])])])])]), _vm._v(" "), _c("a", {
-    staticClass: "personal-account-input__link personal-account-input-tel__link",
+    staticClass: "personal-account-input-inter__link personal-account-input__link personal-account-input-tel__link",
     attrs: {
       href: ""
     }
@@ -6897,7 +6897,7 @@ var render = function render() {
       "xlink:href": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAYAAAARml2dAAAAb0lEQVQImU3KsQ2CYBAF4A9DwwBuYEnHAla2LmDpALIGI1CzgAsYa4egMFBZuYCaM/mTe8kr7n1X6V/Q4Yn/Edmgwogbthm+OKLJGBBZsM9YoOAZLYYMO0x44FIgxjtWHPAOiF7zGJ81PjhhLiP8AB73FgByhMxbAAAAAElFTkSuQmCC"
     }
   })])])]), _vm._v(" "), _c("div", {
-    staticClass: "personal-account-input__row"
+    staticClass: "personal-account-input-inter__row personal-account-input-email__row personal-account-input__row"
   }, [_c("div", {
     staticClass: "personal-account-input__container personal-account-input-email__container"
   }, [_c("label", {
@@ -6932,14 +6932,16 @@ var render = function render() {
       "xlink:href": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAA/UlEQVQ4jc3Su0pDQRDG8V/CAS+llZWdraSwUMRnsPYt4iVooyA2iqitvY2vIShYCEY7H0Gs7FIYlYUJrCHx6DmNH0wxO7P/ncs2bLw20cGyerrDSYF1HNWEJa3hJQHn4+AN27j/I2gRx5jBQpEFJnGBM+yjVwKaiLwdvMdZo5kltHGOLXSx9AMsxR6wG3fag0AO7MVyVsK/xSmms5ypNPiINSO3k3eTAwdK22pF6+nlR6yGPWEzYq3I/aZRwOFq+7gO64+qKlcxBjhc7WH4e2XLKgPm1f5K41qurP8PzGc4FwuoonQ36TMBn8M5CKujbgJeYTY+btURfOAGl184JDFFmd6fPgAAAABJRU5ErkJggg=="
     }
   })])])])])]), _vm._v(" "), _c("button", {
-    staticClass: "personal-account-input-email__btn personal-account-input-email__btn_disabled"
+    staticClass: "personal-account-input-inter__btn personal-account-input-email__btn personal-account-input-email__btn_disabled"
   }, [_vm._v("\n            Подтвердить\n        ")])]), _vm._v(" "), _c("div", {
-    staticClass: "personal-account-input__row"
-  }, [_c("div", {
-    staticClass: "personal-account-input__container personal-account-input-photo__container"
+    staticClass: "personal-account-input-photo__wraper"
   }, [_c("label", {
     staticClass: "personal-account-input__label"
-  }, [_vm._v("\n                добавьте фото\n            ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("\n            добавьте фото\n        ")]), _vm._v(" "), _c("div", {
+    staticClass: "personal-account-input__row personal-account-input-photo__row"
+  }, [_c("div", {
+    staticClass: "personal-account-input__container personal-account-input-photo__container"
+  }, [_c("div", {
     staticClass: "dt-input__group personal-account-input__group personal-account-input-photo__group"
   }, [_c("input", {
     staticClass: "dt-input personal-account-input-photo__input",
@@ -6968,25 +6970,31 @@ var render = function render() {
       height: "20",
       "xlink:href": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAiklEQVQ4jWNkKHzNQACwMDAw8ECVfGVgYPiNTzkTIdMYGBhsGBgY3kOxNyHFxBhIEhg1cBAayALFNnjUGCCxdRgYGD7gUXsElLAFoGmMGkCQJl4GZadAPGpA3myGsjsYGBhO4lH7lQWaNzfgUYQcZicJqB3NKSPCQFCyIQSOgHIAVBEozeIGDAwMAJkKFMUQln3QAAAAAElFTkSuQmCC"
     }
-  })])])])])]), _vm._v(" "), _c("button", {
-    staticClass: "personal-account-input__btn personal-account-input-photo__btn"
-  }, [_vm._v("\n            сменить фото\n        ")]), _vm._v(" "), _c("button", {
-    staticClass: "personal-account-input__btn personal-account-input-photo__btn personal-account-input-photo__btn_red"
-  }, [_vm._v("\n            удалить фото\n        ")])]), _vm._v(" "), _c("div", {
-    staticClass: "dt-check personal-account-check"
-  }, [_vm._m(0), _vm._v(" "), _c("label", {
-    staticClass: "dt-check__label"
-  }, [_vm._t("label", function () {
-    return [_c("h5", [_vm._v("получать рекламные материалы по e-mail")])];
-  })], 2)]), _vm._v(" "), _c("div", {
+  })])])])])]), _vm._v(" "), _vm._m(0)])]), _vm._v(" "), _c("div", {
     staticClass: "dt-check personal-account-check"
   }, [_vm._m(1), _vm._v(" "), _c("label", {
     staticClass: "dt-check__label"
   }, [_vm._t("label", function () {
     return [_c("h5", [_vm._v("получать рекламные материалы по e-mail")])];
-  })], 2)]), _vm._v(" "), _vm._m(2)]);
+  })], 2)]), _vm._v(" "), _c("div", {
+    staticClass: "dt-check personal-account-check"
+  }, [_vm._m(2), _vm._v(" "), _c("label", {
+    staticClass: "dt-check__label"
+  }, [_vm._t("label", function () {
+    return [_c("h5", [_vm._v("получать рекламные материалы по e-mail")])];
+  })], 2)]), _vm._v(" "), _vm._m(3)]);
 };
 var staticRenderFns = [function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "personal-account-input-photo__btns"
+  }, [_c("button", {
+    staticClass: "personal-account-input__btn personal-account-input-photo__btn"
+  }, [_vm._v("\n                    сменить фото\n                ")]), _vm._v(" "), _c("button", {
+    staticClass: "personal-account-input__btn personal-account-input-photo__btn personal-account-input-photo__btn_red"
+  }, [_vm._v("\n                    удалить фото\n                ")])]);
+}, function () {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", {

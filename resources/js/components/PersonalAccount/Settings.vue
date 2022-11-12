@@ -60,7 +60,7 @@
                 </div>
             </div>
         </div>
-        <div class="personal-account-input__row">
+        <div class="personal-account-input-inter__row personal-account-input__row personal-account-input-tel__row">
             <div class="personal-account-input__container personal-account-input-tel__container">
                 <label class="personal-account-input__label">
                     телефон
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="personal-account-input__link personal-account-input-tel__link">
+            <a href="" class="personal-account-input-inter__link personal-account-input__link personal-account-input-tel__link">
                 сменить номер
                 <svg class="personal-account-input-tel__svg" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="9" viewBox="0 0 6 9">
@@ -89,7 +89,7 @@
                 </svg>
             </a>
         </div>
-        <div class="personal-account-input__row">
+        <div class="personal-account-input-inter__row personal-account-input-email__row personal-account-input__row">
             <div class="personal-account-input__container personal-account-input-email__container">
                 <label class="personal-account-input__label">
                     почта
@@ -109,37 +109,41 @@
                     </div>
                 </div>
             </div>
-            <button class="personal-account-input-email__btn personal-account-input-email__btn_disabled">
+            <button class="personal-account-input-inter__btn personal-account-input-email__btn personal-account-input-email__btn_disabled">
                 Подтвердить
             </button>
         </div>
-        <div class="personal-account-input__row">
-            <div class="personal-account-input__container personal-account-input-photo__container">
-                <label class="personal-account-input__label">
-                    добавьте фото
-                </label>
-                <div class="dt-input__group personal-account-input__group personal-account-input-photo__group">
-                    <input type="file" name="name" class="dt-input personal-account-input-photo__input"
-                           autocomplete="off"
-                           placeholder="pochta123@gmail.com">
-                    <div class="dt-input__group-item">
-                        <div class="dt-input__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"
-                                 viewBox="0 0 20 20">
-                                <image id="add_FILL0_wght600_GRAD0_opsz48" width="20" height="20"
-                                       xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAiklEQVQ4jWNkKHzNQACwMDAw8ECVfGVgYPiNTzkTIdMYGBhsGBgY3kOxNyHFxBhIEhg1cBAayALFNnjUGCCxdRgYGD7gUXsElLAFoGmMGkCQJl4GZadAPGpA3myGsjsYGBhO4lH7lQWaNzfgUYQcZicJqB3NKSPCQFCyIQSOgHIAVBEozeIGDAwMAJkKFMUQln3QAAAAAElFTkSuQmCC"/>
-                            </svg>
+        <div class="personal-account-input-photo__wraper">
+            <label class="personal-account-input__label">
+                добавьте фото
+            </label>
+            <div class="personal-account-input__row personal-account-input-photo__row">
+                <div class="personal-account-input__container personal-account-input-photo__container">
+                    <div class="dt-input__group personal-account-input__group personal-account-input-photo__group">
+                        <input type="file" name="name" class="dt-input personal-account-input-photo__input"
+                               autocomplete="off"
+                               placeholder="pochta123@gmail.com">
+                        <div class="dt-input__group-item">
+                            <div class="dt-input__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"
+                                     viewBox="0 0 20 20">
+                                    <image id="add_FILL0_wght600_GRAD0_opsz48" width="20" height="20"
+                                           xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAiklEQVQ4jWNkKHzNQACwMDAw8ECVfGVgYPiNTzkTIdMYGBhsGBgY3kOxNyHFxBhIEhg1cBAayALFNnjUGCCxdRgYGD7gUXsElLAFoGmMGkCQJl4GZadAPGpA3myGsjsYGBhO4lH7lQWaNzfgUYQcZicJqB3NKSPCQFCyIQSOgHIAVBEozeIGDAwMAJkKFMUQln3QAAAAAElFTkSuQmCC"/>
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="personal-account-input-photo__btns">
+                    <button class="personal-account-input__btn personal-account-input-photo__btn">
+                        сменить фото
+                    </button>
+                    <button class="personal-account-input__btn personal-account-input-photo__btn personal-account-input-photo__btn_red">
+                        удалить фото
+                    </button>
+                </div>
             </div>
-            <button class="personal-account-input__btn personal-account-input-photo__btn">
-                сменить фото
-            </button>
-            <button class="personal-account-input__btn personal-account-input-photo__btn personal-account-input-photo__btn_red">
-                удалить фото
-            </button>
         </div>
 
         <div class="dt-check personal-account-check">

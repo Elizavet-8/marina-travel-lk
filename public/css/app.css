@@ -3819,13 +3819,13 @@ h6 {
     flex-direction: column;
     padding: 25px 10px;
   }
-  .personal-account-orders__card {
+  .personal-account-orders__card, .personal-account-orders-completed__card {
     min-height: 350px;
     height: 100%;
     display: grid;
     grid-auto-rows: 196px auto 88px;
   }
-  .personal-account-orders__card .card-body {
+  .personal-account-orders__card .card-body, .personal-account-orders-completed__card .card-body {
     max-height: 100%;
   }
 }
