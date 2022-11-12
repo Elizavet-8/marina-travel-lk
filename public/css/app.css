@@ -3309,8 +3309,12 @@ h6 {
 .personal-account-input-email__btn_disabled {
   opacity: 0.502;
 }
+.personal-account-input-photo__wraper {
+  margin-bottom: 30px;
+}
 .personal-account-input-photo__container {
   margin: 0;
+  padding: 0;
 }
 .personal-account-input-photo__group {
   width: 100px;
@@ -3361,12 +3365,98 @@ h6 {
   opacity: 1 !important;
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 1380px) {
+  .personal-account-card__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 998px) {
   .personal-account__row {
     margin-top: 29px;
-    grid-template-columns: minmax(auto, 215px) 1fr;
+    grid-template-columns: 1fr;
+  }
+  .personal-account__content {
+    padding: 29px 0 0 0;
   }
   .personal-account-input__grid_three {
+    grid-template-columns: 1fr;
+    margin: 32px 0 0;
+  }
+  .personal-account-input__container {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .personal-account-input-inter__link, .personal-account-input-inter__btn {
+    margin-top: 10px;
+  }
+  .personal-account-input-tel__container {
+    margin-right: 26px;
+  }
+  .personal-account-input-email__container {
+    margin-right: 10px;
+  }
+  .personal-account-input-photo__container {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 778px) {
+  .personal-account {
+    padding: 20px 0 59px;
+  }
+  .personal-account-input-email__container, .personal-account-input-tel__container {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 556px) {
+  .personal-account-input-inter__row {
+    flex-direction: column;
+  }
+  .personal-account-input-inter__link, .personal-account-input-inter__btn {
+    margin: 0;
+  }
+  .personal-account-input-tel__container {
+    margin: 0 0 15px;
+    padding: 0;
+  }
+  .personal-account-input-tel__row {
+    margin-bottom: 20px;
+  }
+  .personal-account-input-email__container {
+    margin: 0 0 4px;
+    padding: 0;
+  }
+  .personal-account-input-email__btn {
+    width: 100%;
+    height: 50px;
+  }
+  .personal-account-input-email__row {
+    margin-bottom: 18px;
+  }
+  .personal-account-input-photo__wraper {
+    margin-bottom: 21px;
+  }
+  .personal-account-input-photo__group {
+    width: 80px;
+    height: 80px;
+  }
+  .personal-account-input-photo__btns {
+    display: flex;
+    flex-direction: column;
+    margin-left: 26px;
+  }
+  .personal-account-input-photo__btn {
+    margin: 0 0 20px;
+  }
+  .personal-account-input-photo__btn:last-child {
+    margin-bottom: 0;
+  }
+  .personal-account__submit {
+    width: 100%;
+    margin-top: 20px;
+    height: 60px;
+  }
+  .personal-account-card__list {
     grid-template-columns: 1fr;
   }
 }
@@ -3390,6 +3480,20 @@ h6 {
   width: 100%;
 }
 
+@media screen and (max-width: 556px) {
+  .personal-account-changing-password {
+    margin-top: 30px;
+  }
+  .personal-account-changing-password-input__container {
+    margin-bottom: 20px;
+  }
+  .personal-account-changing-password-input__container:last-child {
+    margin-bottom: 0;
+  }
+  .personal-account-changing-password__submit {
+    margin-top: 20px;
+  }
+}
 .personal-account-transactions__row {
   display: flex;
   margin: 35px 0 40px;
@@ -3411,21 +3515,18 @@ h6 {
 .personal-account-transactions-card {
   border-radius: 6px;
   background-color: rgb(255, 255, 255);
-  height: 141px;
+  height: 146px;
   margin-bottom: 10px;
+  padding: 16px 40px 26px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
 }
 .personal-account-transactions-card:last-child {
   margin-bottom: 0;
 }
-.personal-account-transactions-card-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 40px 15px;
-  border-bottom: 1px solid #eff0f0;
-}
 .personal-account-transactions-card-head__column {
   display: flex;
+  align-items: center;
 }
 .personal-account-transactions-card-head__text {
   font-size: 14px;
@@ -3443,6 +3544,7 @@ h6 {
 .personal-account-transactions-card-head__status {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   font-size: 12px;
   line-height: 1.667;
 }
@@ -3455,11 +3557,19 @@ h6 {
 .personal-account-transactions-card-head__status_green {
   color: rgb(101, 195, 80);
 }
+.personal-account-transactions-card-head__status_green .personal-account-transactions-card-head__svg {
+  width: 18px;
+  height: 14px;
+}
 .personal-account-transactions-card-head__status_green .personal-account-transactions-card-head__svg path {
   fill: rgb(101, 195, 80);
 }
 .personal-account-transactions-card-head__status_red {
   color: rgb(248, 55, 55);
+}
+.personal-account-transactions-card-head__status_red .personal-account-transactions-card-head__svg {
+  width: 14px;
+  height: 14px;
 }
 .personal-account-transactions-card-head__status_red .personal-account-transactions-card-head__svg path {
   fill: rgb(248, 55, 55);
@@ -3479,10 +3589,14 @@ h6 {
   height: 20px;
 }
 .personal-account-transactions-card-body {
-  padding: 28px 40px 23px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 15px -40px 0;
+  padding: 28px 40px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 1px solid #eff0f0;
 }
 .personal-account-transactions-card-body__text {
   display: flex;
@@ -3491,7 +3605,6 @@ h6 {
   font-size: 14px;
   color: rgba(34, 36, 37, 0.8);
   line-height: 1.429;
-  margin-right: 8px;
   font-weight: 800;
 }
 .personal-account-transactions-card-body__text_blue {
@@ -3500,8 +3613,79 @@ h6 {
   line-height: 1.429;
   border-bottom: 1px solid #e7e7e7;
   font-weight: 600;
+  margin-left: 8px;
 }
 
+@media screen and (max-width: 778px) {
+  .personal-account-transactions {
+    margin-top: 25px;
+  }
+  .personal-account-transactions__row {
+    display: none;
+  }
+  .personal-account-transactions-card {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 24px 30px 15px;
+  }
+  .personal-account-transactions-card-head__column {
+    justify-content: space-between;
+  }
+  .personal-account-transactions-card-head__status {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .personal-account-transactions-card-head__text {
+    font-size: 12px;
+  }
+  .personal-account-transactions-card-head__text_grey {
+    font-size: 10px;
+    line-height: 2;
+  }
+  .personal-account-transactions-card-head__status {
+    font-size: 10px;
+    line-height: 2;
+  }
+  .personal-account-transactions-card-head__status_green .personal-account-transactions-card-head__svg {
+    width: 14px;
+    height: 10px;
+  }
+  .personal-account-transactions-card-head__status_red .personal-account-transactions-card-head__svg {
+    width: 10px;
+    height: 10px;
+  }
+  .personal-account-transactions-card-head__icon {
+    width: 29px;
+    height: 29px;
+    margin-left: 10px;
+  }
+  .personal-account-transactions-card-head__svg {
+    width: 15px;
+    height: 15px;
+  }
+  .personal-account-transactions-card-body {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #eff0f0;
+    padding: 25px 30px;
+    margin: 22px -30px 14px;
+  }
+  .personal-account-transactions-card-body__text {
+    margin-bottom: 20px;
+  }
+  .personal-account-transactions-card-body__text_grey {
+    font-size: 12px;
+    line-height: 1.667;
+    font-weight: 400;
+  }
+  .personal-account-transactions-card-body__text_blue {
+    font-size: 12px;
+    line-height: 1.667;
+    margin-left: 4px;
+  }
+}
 .personal-account-reviews {
   margin-top: 39px;
 }
@@ -3533,15 +3717,21 @@ h6 {
 .personal-account-orders__link:last-child {
   margin-right: 0;
 }
-.personal-account-orders__link_active {
+.personal-account-orders__link_active, .personal-account-orders__link:hover, .personal-account-orders__link:focus, .personal-account-orders__link:active {
   background-color: rgb(0, 113, 235);
-  box-shadow: 0px 10px 27.9px 2.1px rgba(0, 113, 235, 0.3);
   color: #ffffff;
 }
+.personal-account-orders__link_active {
+  box-shadow: 0px 10px 27.9px 2.1px rgba(0, 113, 235, 0.3);
+}
 .personal-account-orders__card {
-  height: 562px;
+  min-height: 562px;
+  height: 100%;
   display: grid;
-  grid-auto-rows: 196px 295px 69px;
+  grid-auto-rows: 196px auto 69px;
+}
+.personal-account-orders__card .card-body {
+  max-height: 100%;
 }
 .personal-account-orders-info {
   flex-direction: column;
@@ -3624,8 +3814,42 @@ h6 {
   box-shadow: 0px 10px 27.9px 2.1px rgba(0, 113, 235, 0.3);
 }
 
+@media screen and (max-width: 1200px) {
+  .personal-account-orders-footer {
+    flex-direction: column;
+    padding: 25px 10px;
+  }
+  .personal-account-orders__card {
+    min-height: 350px;
+    height: 100%;
+    display: grid;
+    grid-auto-rows: 196px auto 88px;
+  }
+  .personal-account-orders__card .card-body {
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 778px) {
+  .personal-account-orders__links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 29px -2px 25px;
+  }
+  .personal-account-orders__link {
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 10px;
+    line-height: 2;
+    margin: 0 2px;
+  }
+}
 .personal-account-viewed {
   margin-top: 40px;
+}
+@media screen and (max-width: 556px) {
+  .personal-account-viewed {
+    margin-top: 30px;
+  }
 }
 
 body {

@@ -8232,18 +8232,16 @@ var render = function render() {
   return _c("div", {
     staticClass: "personal-account-transactions-card"
   }, [_c("div", {
-    staticClass: "personal-account-transactions-card-head"
-  }, [_c("div", {
     staticClass: "personal-account-transactions-card-head__column"
   }, [_c("div", {
     staticClass: "personal-account-transactions-card-head__text"
-  }, [_vm._v("\n                № " + _vm._s(_vm.item.id) + "\n            ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("\n            № " + _vm._s(_vm.item.id) + "\n        ")]), _vm._v(" "), _c("div", {
     staticClass: "personal-account-transactions-card-head__text"
   }, [_c("span", {
     staticClass: "personal-account-transactions-card-head__text_grey"
-  }, [_vm._v("\n                                        сумма\n                                    ")]), _vm._v("\n                " + _vm._s(_vm.item.amount) + " ₽\n            ")])]), _vm._v(" "), _vm.item.status === "в ожидании" ? _c("div", {
+  }, [_vm._v("\n                сумма\n            ")]), _vm._v("\n            " + _vm._s(_vm.item.amount) + " ₽\n        ")])]), _vm._v(" "), _vm.item.status === "в ожидании" ? _c("div", {
     staticClass: "personal-account-transactions-card-head__status personal-account-transactions-card-head__status_blue"
-  }, [_vm._v("\n            в ожидании\n            "), _c("div", {
+  }, [_vm._v("\n        в ожидании\n        "), _c("div", {
     staticClass: "personal-account-transactions-card-head__icon"
   }, [_c("svg", {
     staticClass: "personal-account-transactions-card-head__svg",
@@ -8263,7 +8261,7 @@ var render = function render() {
     }
   })])])]) : _vm._e(), _vm._v(" "), _vm.item.status === "оплачено" ? _c("div", {
     staticClass: "personal-account-transactions-card-head__status personal-account-transactions-card-head__status_green"
-  }, [_vm._v("\n            оплачено\n            "), _c("div", {
+  }, [_vm._v("\n        оплачено\n        "), _c("div", {
     staticClass: "personal-account-transactions-card-head__icon"
   }, [_c("svg", {
     staticClass: "personal-account-transactions-card-head__svg",
@@ -8283,7 +8281,7 @@ var render = function render() {
     }
   })])])]) : _vm._e(), _vm._v(" "), _vm.item.status === "отклонено" ? _c("div", {
     staticClass: "personal-account-transactions-card-head__status personal-account-transactions-card-head__status_red"
-  }, [_vm._v("\n            отклонено\n            "), _c("div", {
+  }, [_vm._v("\n        отклонено\n        "), _c("div", {
     staticClass: "personal-account-transactions-card-head__icon"
   }, [_c("svg", {
     staticClass: "personal-account-transactions-card-head__svg",
@@ -8301,15 +8299,15 @@ var render = function render() {
       height: "14",
       "xlink:href": "data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAiUlEQVQokZ3SwQ3AIAhA0V/Su9u0G7iBS9YNHKHb9NZjQ4KJMcKh3FSeQXB7zxOgAA14iCMBGahi6DKYApYsR3OL2OIGjgB3dFhuEysvB3hGmvuIHXp4iRTsw80dtwGzQjNcYVZIQ/gZM5zf5HZbAqTlud3u0OueOyqFbsujUSnUTQ95OP/75FA/NoM/a4yG+/wAAAAASUVORK5CYII="
     }
-  })])])]) : _vm._e()]), _vm._v(" "), _c("div", {
+  })])])]) : _vm._e(), _vm._v(" "), _c("div", {
     staticClass: "personal-account-transactions-card-body"
   }, [_c("div", {
     staticClass: "personal-account-transactions-card-body__text"
-  }, [_c("span", {
+  }, [_c("div", {
     staticClass: "personal-account-transactions-card-body__text_grey"
-  }, [_vm._v("\n                                    оплата за\n                                ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("\n                оплата за\n                "), _c("span", {
     staticClass: "personal-account-transactions-card-body__text_blue"
-  }, [_vm._v("\n                " + _vm._s(_vm.item.name_tour) + "\n            ")])]), _vm._v(" "), _vm._m(0)])]);
+  }, [_vm._v("\n                    " + _vm._s(_vm.item.name_tour) + "\n                ")])])]), _vm._v(" "), _vm._m(0)])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,
